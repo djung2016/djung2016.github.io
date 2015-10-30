@@ -3,7 +3,42 @@ body {
   font-weight: 300;
   background: url(linedpaper.png) repeat;
 }
-#wrapper {
+img {
+	width: 150px;
+}
+#walt {
+	width: 400px;
+	 border-style: dotted;
+	 border-width: 1x;
+	 border-color: orange;
+	 border-top-color: green;
+} 
+
+	#wrapper {
   width: 960px;
   margin: 20px auto;
 }
+/* Making the H2 red */
+h1,h2 {
+	color: orange;
+	font-size: 30px;
+	opacity: 0.5;
+}
+h4 {
+	color: #0066c0;
+}
+/* made id for h4, then changed color for that only */
+#summary {
+	color: red;
+}
+/*assigned class="unicorn" for h4 Skills and Hobbies */
+.unicorn {
+	color: purple;
+}
+/* overwriting h1's color and size */
+h1 {
+	color: green;
+	font-size: 50px;
+	 
+}
+
