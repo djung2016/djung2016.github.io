@@ -4,16 +4,18 @@ body {
   background: url(linedpaper.png) repeat;
 }
 img {
-	width: 150px;
+	width: 100px;
+	height: 100px;
 }
 #walt {
 	width: 400px;
+	height: 500px;
 	 border-style: dotted;
 	 border-width: 1x;
 	 border-color: orange;
 	 border-top-color: green;
 } 
-
+/* You can also do: "border: dotted 25px orange" */
 	#wrapper {
   width: 960px;
   margin: 20px auto;
@@ -26,6 +28,7 @@ h1,h2 {
 }
 h4 {
 	color: #0066c0;
+	text-decoration: underline;
 }
 /* made id for h4, then changed color for that only */
 #summary {
