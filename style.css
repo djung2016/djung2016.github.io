@@ -1,0 +1,47 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background: url(linedpaper.png) repeat;
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+#walt {
+	width: 250px;
+	height: 310px;
+	 border-style: dotted;
+	 border-width: 1x;
+	 border-color: orange;
+	 border-top-color: green;
+} 
+/* You can also do: "border: dotted 25px orange" */
+	#wrapper {
+  width: 960px;
+  margin: 20px auto;
+}
+/* Making the H2 red */
+h1,h2 {
+	color: orange;
+	font-size: 30px;
+	opacity: 0.5;
+}
+h4 {
+	color: #0066c0;
+	text-decoration: underline;
+}
+/* made id for h4, then changed color for that only */
+#summary {
+	color: red;
+}
+/*assigned class="unicorn" for h4 Skills and Hobbies */
+.unicorn {
+	color: purple;
+}
+/* overwriting h1's color and size */
+h1 {
+	color: green;
+	font-size: 50px;
+	 
+}
+
